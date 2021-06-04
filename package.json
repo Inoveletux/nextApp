@@ -1,0 +1,20 @@
+{
+  "name": "learn-starter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"nodemon server.js\" \"next dev\"",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "babel-plugin-styled-components": "^1.12.0",
+    "next": "^10.0.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "socket.io": "^4.1.2",
+    "socket.io-client": "^4.1.2",
+    "styled-components": "^5.3.0"
+  }
+}
